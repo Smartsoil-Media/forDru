@@ -21,12 +21,18 @@ body {
     position: relative;
 }
 
+h4 {
+    margin: 10px 0px;
+}
+
 button {
     padding: 8px 16px;
     border: solid black 1px;
     border-radius: 5px;
     font-size: 18px;
     transition: 0.2s;
+    touch-action: manipulation;
+
 }
 
 button:hover {
